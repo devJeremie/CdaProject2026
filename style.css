@@ -435,7 +435,8 @@ https://templatemo.com/tm-597-neural-glass
      font-weight: 300;
 }
 .subtitle-center {
- text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .hero-subtitle::before, .hero-subtitle::after {
      content: '';
